@@ -1,19 +1,19 @@
-# Java OOP — Error Handling
+# Java OOP — Errors Project
 
-A Java mini-project demonstrating **exception handling** and **custom error classes**.
-
-Part of the **Hexlet Java Developer program**.
-
----
-
-## 🚀 Overview
-- Implements a `Circle` class that validates radius values  
-- Demonstrates throwing and catching exceptions  
-- Includes tests for negative radius and other invalid input  
-- Uses **Gradle** and **JUnit 5**
+This project is part of the **Hexlet Java OOP course**.  
+It demonstrates the concepts of **exception handling**, **custom exceptions**, and **error propagation** in Java applications.
 
 ---
 
-## 🧪 Run Tests
-```bash
-./gradlew test
+## 🧩 Project Overview
+The goal of this module is to design and test custom exception classes, handle runtime errors gracefully, and apply clean object-oriented principles.
+
+Key components include:
+- Creating and throwing custom exception types (`CustomException`, `NegativeRadiusException`)
+- Demonstrating nested exception classes
+- Building geometric classes (`Point`, `Circle`) that use proper validation
+- Writing comprehensive unit tests with **JUnit**
+
+---
+
+## 🛠️ Project Structure
